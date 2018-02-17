@@ -1,0 +1,58 @@
+
+html {
+	background-color: #000000;
+}
+
+#pinterest {
+	position: absolute;
+	top: 30%;
+	left: 10%;
+}
+
+button#button-next, button#button-prev {
+	background: transparent;
+	border: none;
+	font-size: 100px;
+	font-family: 'Gochi Hand', cursive;
+	color: black;
+	cursor: pointer;
+}
+
+#next {
+	position: absolute;
+	right: 0%;
+	bottom: 0%;
+}
+
+#prev {
+	position: absolute;
+	left: 0%;
+	bottom: 0%;
+}
+
+button#button-next:disabled,
+button#button-prev:disabled,
+button#button-next[disabled],
+button#button-prev[disabled] {
+  cursor: default;
+  color: white;
+}
+
+.kobrahh {
+	text-align: center;
+	color: #FFFFFF;
+	font-size: 100px;
+	font-family: 'Gochi Hand', cursive;
+}
+
+.spotify-user {
+	position: absolute;
+	top: 30%;
+	right: 10%;
+}
+
+.spotify-playlist {
+	position: absolute;
+	top: 40%;
+	right: 10%
+}
